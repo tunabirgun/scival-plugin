@@ -9,7 +9,7 @@
       "name": "scival",
       "source": "./",
       "description": "A rigorous scientific validation tool that evaluates claims against high-impact literature using a weighted scoring matrix.",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "category": "analysis"
     }
   ]

@@ -21,16 +21,16 @@ Generate the following structured report:
 * **Primary Evidence Base:** [e.g., "Multiple Meta-Analyses"]
 
 ### Scientific Rigor & Validity Matrix
-Rate each metric on a scale of 1–10 based strictly on published literature.
+Rate each metric on a scale of 1–10 based strictly on published literature. Write every score in the compact form `X/10` with no spaces around the slash, so it stays on a single line when the Score column is narrow.
 
 | Evaluation Metric | Score | Justification & Evidence Threshold |
 | :--- | :--- | :--- |
-| **Evidence Tier (Hierarchy)** | X / 10 | 10 = Meta-analyses. 1 = Anecdotal. |
-| **Statistical & Methodological Power**| X / 10 | Assessment of sample sizes, controls, and blinding. |
-| **Replication Status** | X / 10 | Successfully replicated by independent labs? |
-| **Contemporary Consensus** | X / 10 | Agreement in high-impact journals over the last 3–5 years. |
-| **Absence of Bias/Confounders** | X / 10 | Likelihood that results are free from bias. |
-| **OVERALL SCIVAL INDEX** | **X / 10** | **Weighted average.** |
+| **Evidence Tier (Hierarchy)** | X/10 | 10 = Meta-analyses. 1 = Anecdotal. |
+| **Statistical & Methodological Power**| X/10 | Assessment of sample sizes, controls, and blinding. |
+| **Replication Status** | X/10 | Successfully replicated by independent labs? |
+| **Contemporary Consensus** | X/10 | Agreement in high-impact journals over the last 3–5 years. |
+| **Absence of Bias/Confounders** | X/10 | Likelihood that results are free from bias. |
+| **OVERALL SCIVAL INDEX** | **X/10** | **Weighted average.** |
 
 ### Deep Literature Analysis
 Provide three short sections:
