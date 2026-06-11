@@ -43,7 +43,7 @@ Provide three short sections:
 * **Scientifically Calibrated Statement:** "[Rewrite empirically bulletproof.]"
 
 ### References
-List every source cited above. Format each entry in **APA 7th edition** style and order the list alphabetically by first author surname.
+List **only peer-reviewed scientific sources** here — journal articles, conference proceedings, books, and preprints. Format each entry in **APA 7th edition** style and order the list alphabetically by first author surname. Do not place news articles, press releases, blogs, or other popular sources in this section.
 
 * **Recency:** for any claim in an actively studied field, cite the most recent high-impact work available and prefer it over older sources; cite an older work only when it is foundational and still the current consensus, and note that status. Do not lean on dated references when newer high-impact literature exists.
 
@@ -52,3 +52,8 @@ List every source cited above. Format each entry in **APA 7th edition** style an
 * **Authors:** invert every name (Surname, F. M.); use an ampersand before the final author; for 21 or more authors, list the first 19, an ellipsis, then the final author.
 * **Italicize** the journal name and volume number; do not italicize the issue number or pages.
 * Provide an in-text citation (Author, Year) at each point in the report where a source is referenced, matching it to its reference-list entry.
+
+### Other Sources
+List any **non-scholarly sources** here instead — news articles, press releases, institutional newsrooms, blogs, fact-checks, and similar. Give each as a plain markdown link with a descriptive title: `[Title — Publisher](URL)`. Omit this heading entirely when no such sources were used.
+
+**Do not** emit a generic "Sources" list anywhere in the report. Every cited source belongs under either **References** (peer-reviewed, APA 7th edition) or **Other Sources** (everything else).

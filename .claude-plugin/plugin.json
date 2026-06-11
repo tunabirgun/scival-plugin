@@ -1,6 +1,6 @@
 {
   "name": "scival",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A rigorous scientific validation tool that evaluates claims against high-impact literature using a weighted scoring matrix.",
   "author": {
     "name": "tunabirgun",
