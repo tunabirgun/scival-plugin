@@ -10,6 +10,7 @@ When the user invokes this skill, you must immediately suspend standard conversa
 2. **Evaluate Statistical Rigor:** Assess sample sizes, p-values, and effect sizes. 
 3. **Assess Bias:** Scan for replication crisis markers or funding bias.
 4. **Establish Certainty:** Use a GRADE-inspired approach to determine the certainty of evidence.
+5. **Weight by Recency:** Recency is a validity criterion alongside impact. First decide whether the claim sits in an actively studied field (one where new high-impact work still appears) or a settled one. For an active field, prioritize the most recent high-impact evidence and treat older findings as superseded unless they remain the current consensus; flag any claim resting mainly on dated work as a vulnerability. For a settled field, a foundational source may stand, but say explicitly that it is foundational and still current.
 
 ## Output Generation Format
 Generate the following structured report:
@@ -43,6 +44,8 @@ Provide three short sections:
 
 ### References
 List every source cited above. Format each entry in **APA 7th edition** style and order the list alphabetically by first author surname.
+
+* **Recency:** for any claim in an actively studied field, cite the most recent high-impact work available and prefer it over older sources; cite an older work only when it is foundational and still the current consensus, and note that status. Do not lean on dated references when newer high-impact literature exists.
 
 * **Journal article:** Author, A. A., & Author, B. B. (Year). Title of the article. *Journal Name, Volume*(Issue), page range. https://doi.org/xxxxx
 * **Use the DOI** as the closing element when one exists; fall back to a stable URL only when no DOI is available.
