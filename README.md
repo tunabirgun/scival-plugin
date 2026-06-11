@@ -2,9 +2,24 @@
 
 SciVal is an analytical skillset for Claude Code that rigorously evaluates the scientific validity of claims, statements, or drafts against publicly available, high-impact scientific literature.
 
+## Installation
+Install it in Claude Code by adding this repo as a marketplace, then installing the plugin from it:
+
+```
+claude plugin marketplace add tunabirgun/scival-plugin
+claude plugin install scival@scival-marketplace
+```
+
+Restart Claude Code afterward to load the skill. To pull later updates, run `claude plugin update scival@scival-marketplace` (also restart to apply).
+
 ## Usage
-Once installed, trigger the tool by asking Claude Code to run it:
-`Run SciVal on this statement: "Microplastics cross the blood-brain barrier in mammalian models."`
+Once installed, run it with the slash command, passing the claim as the argument:
+
+```
+/scival:scival Microplastics cross the blood-brain barrier in mammalian models.
+```
+
+The skill is invoke-only (`disable-model-invocation: true`), so it runs only when you call the command explicitly; Claude will not trigger it on its own from a plain-language request.
 
 ## What it does
 1. Maps the claim to the Hierarchy of Evidence.
