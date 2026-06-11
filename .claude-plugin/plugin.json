@@ -1,0 +1,15 @@
+{
+  "name": "scival",
+  "version": "1.0.0",
+  "description": "A rigorous scientific validation tool that evaluates claims against high-impact literature using a weighted scoring matrix.",
+  "author": {
+    "name": "tunabirgun",
+    "email": "tunabirgun@gmail.com"
+  },
+  "category": "analysis",
+  "keywords": ["science", "validation", "research", "fact-check", "literature-review"],
+  "strict": false,
+  "skills": [
+    "./skills/scival"
+  ]
+}
