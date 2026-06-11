@@ -40,3 +40,12 @@ Provide three short sections:
 ### Calibration Recommendation
 * **Original Statement:** "[User's statement]"
 * **Scientifically Calibrated Statement:** "[Rewrite empirically bulletproof.]"
+
+### References
+List every source cited above. Format each entry in **APA 7th edition** style and order the list alphabetically by first author surname.
+
+* **Journal article:** Author, A. A., & Author, B. B. (Year). Title of the article. *Journal Name, Volume*(Issue), page range. https://doi.org/xxxxx
+* **Use the DOI** as the closing element when one exists; fall back to a stable URL only when no DOI is available.
+* **Authors:** invert every name (Surname, F. M.); use an ampersand before the final author; for 21 or more authors, list the first 19, an ellipsis, then the final author.
+* **Italicize** the journal name and volume number; do not italicize the issue number or pages.
+* Provide an in-text citation (Author, Year) at each point in the report where a source is referenced, matching it to its reference-list entry.
