@@ -1,31 +1,40 @@
-# SciVal for Claude Code
+# SciVal
 
-SciVal is an analytical skillset for Claude Code that rigorously evaluates the scientific validity of claims, statements, or drafts against publicly available, high-impact scientific literature.
+A Claude Code skill that evaluates the scientific validity of a claim, statement or draft against high-impact published literature.
 
-## Installation
-Install it in Claude Code by adding this repo as a marketplace, then installing the plugin from it:
+## Install
 
-```
+```bash
 claude plugin marketplace add tunabirgun/scival-plugin
 claude plugin install scival@scival-marketplace
 ```
 
-Restart Claude Code afterward to load the skill. To pull later updates, run `claude plugin update scival@scival-marketplace` (also restart to apply).
+Restart Claude Code to load the skill. To update, run `claude plugin update scival@scival-marketplace` and restart.
 
-## Usage
-Once installed, run it with the slash command, passing the claim as the argument:
+## Use
 
-```
+Pass the claim as the argument to the slash command:
+
+```text
 /scival:scival Microplastics cross the blood-brain barrier in mammalian models.
 ```
 
-The skill is invoke-only (`disable-model-invocation: true`), so it runs only when you call the command explicitly; Claude will not trigger it on its own from a plain-language request.
+The skill sets `disable-model-invocation: true`, so it runs only when called explicitly and never from a plain-language request.
 
-## What it does
-1. Maps the claim to the Hierarchy of Evidence.
-2. Evaluates statistical rigor and absence of bias.
-3. Generates a 1-10 Scientific Validity Scoring Matrix.
-4. Suggests an empirically calibrated rewrite of the original statement.
+The report contains:
 
-## Security
-This plugin is purely prompt/context-based. It does not contain executable scripts or custom MCP servers. It relies entirely on Claude's native web-search and reasoning capabilities.
+- an executive summary with a verdict from Unassailable to Pseudoscientific;
+- a 1-10 validity matrix covering evidence tier, statistical power, replication, contemporary consensus and bias;
+- a literature analysis with counter-evidence and boundary conditions;
+- a calibrated rewrite of the original statement;
+- peer-reviewed references in APA 7th edition, with non-scholarly sources listed separately.
+
+Evidence is weighted by recency: in an actively studied field, dated work is flagged as a vulnerability unless it remains the current consensus.
+
+## Limits
+
+The plugin is prompt-only, with no scripts or MCP servers. It relies on Claude's web search and reasoning, and the skill does not specify the weights behind the overall index.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
